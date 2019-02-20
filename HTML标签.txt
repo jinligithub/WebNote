@@ -1,0 +1,112 @@
+HTML：超文本标记语言，结构不严禁，
+声明文档类型
+<html>   </html>或者</Html>
+
+<html>  
+    <head>
+          <title>结构</title>
+     </head>
+</html>
+
+
+
+html注释：<!-- 注释信息-->
+<!DOCTYPE>    ->文档声明
+<meta  charset="UTF-8">    ->>设置编码格式
+<title>窗口标题标签</tlile>
+<sup>:  上标签
+<sub>:下标签
+
+<div>  ：块标签
+<span>:  行标签
+
+
+
+<br></br>   ->换行标签
+<i></i>  ->斜体标签
+&nbsp：代表一个空格
+<blockquote></blockquote>  ->段落缩进标签
+<pre></pre>  ->原样输出标签
+
+
+<h1></h2>   --->h1到h6由大到小
+h7：普通文本
+<hr  />：水平线标签
+<p>  段落标签</p>
+
+
+<b></b>： 加粗
+<strong></strong>:  加粗
+比较：后者强调语义，通常情况下使用b标签
+
+<address>地址：默认为斜体</address>
+<code>代码标签</code>
+<marqueue  behavior+“xxx”>滚动标签</marqueue>
+behavior：滚动的方式：
+
+<a>超链接标签  href =指定地址/html文件·
+target属性：
+_self：在当前窗口直接打开
+_blank；在心得窗口打开
+常见的协议：
+jdbc:
+file:
+http:
+https:
+thunder:
+邮件协议：
+</a>
+HBuiler:8020端口号
+表格标签0：
+在hmtl中没有列的概念，把列称为单元格
+table标签：描述表格
+表的行:hr
+单元格：td
+属性：
+border（边框线，数字越大边框线越粗）
+width：（宽度）
+hight：表格的高度
+algin：表格居中，对齐方式
+bgcolor：背景色
+表格的行：tr
+单元格；td
+ 单元格列合并：
+单元格行合并：
+
+<thead></thead>
+
+
+
+
+
+图片标签：
+<img></img>
+src：连接当前图片的文件
+       图片路径：../:当前项目路径下；（回退上一级目录）
+alt：当前图片失效时，alt指定文件内容展示出来
+width:图片的宽度
+hight：文件的高度
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
