@@ -9,7 +9,7 @@ HTML：超文本标记语言，结构不严禁，
 </html>
 
 
-
+文本标签
 html注释：<!-- 注释信息-->
 <!DOCTYPE>    ->文档声明
 <meta  charset="UTF-8">    ->>设置编码格式
@@ -19,6 +19,7 @@ html注释：<!-- 注释信息-->
 
 <div>  ：块标签
 <span>:  行标签
+
 
 
 
@@ -39,12 +40,15 @@ h7：普通文本
 <strong></strong>:  加粗
 比较：后者强调语义，通常情况下使用b标签
 
+
+<center></center>   居中标签
 <address>地址：默认为斜体</address>
 <code>代码标签</code>
-<marqueue  behavior+“xxx”>滚动标签</marqueue>
+<marqueue  behavior+“xxx”>滚动标签</marqueue>   ---弹幕
 behavior：滚动的方式：
 
-<a>超链接标签  href =指定地址/html文件·
+<a>超链接标签  href =指定地址/html文件
+<font>字体标签</font>·
 target属性：
 _self：在当前窗口直接打开
 _blank；在心得窗口打开
@@ -57,56 +61,102 @@ thunder:
 邮件协议：
 </a>
 HBuiler:8020端口号
-表格标签0：
+
+表格标签：
 在hmtl中没有列的概念，把列称为单元格
 table标签：描述表格
-表的行:hr
+表头标签：th(自动居中加粗)
+表的行:tr
 单元格：td
 属性：
 border（边框线，数字越大边框线越粗）
-width：（宽度）
+width：（宽度）有两种写法
+	1. 
+
+
+
+
 hight：表格的高度
 algin：表格居中，对齐方式
 bgcolor：背景色
 表格的行：tr
 单元格；td
- 单元格列合并：
-单元格行合并：
+ 单元格列合并：colspan
+单元格行合并：rowspan
+<&copy   转义字符C  版权标识>
+表格拆分
 
 <thead></thead>
+<tbody></tbody>
+<tfoot></tfoot>
+
+
+超链接标签
+作用：
+1.跳转到指定的地址
+2.锚链接：从底端跳转到顶端
+	1. 
+在同一个界面中：
+
+
+      步骤：1）打锚点->  <a  name = "指定的锚点名"></a>
+                2）需要跳转到锚点的链接    <a href  ="#指定当前锚点名称">开始跳转</a>
+2.在不同页面中
+1）在另外的页面中打锚点（标记）
+2）在当前页面中创建超链接标签指定：文件名称+锚点名
+<a>超链接标签  
+href =指定地址/html文件·
+target属性：打开资源目录的方式
+    _self：在当前窗口直接打开
+    _blank；在心得窗口打开
+常见的协议：
+jdbc:
+file:
+http:
+https:
+thunder:
+邮件协议：
+</a>
 
 
 
+表单：
+
+用户名，密码，确认密码，邮箱，验证码
+
+注册       取消
 
 
-图片标签：
-<img></img>
-src：连接当前图片的文件
-       图片路径：../:当前项目路径下；（回退上一级目录）
-alt：当前图片失效时，alt指定文件内容展示出来
-width:图片的宽度
-hight：文件的高度
+表单标签：
+from标签：
+常用属性：
+action：提交地址的url，如果本地：#
+method：提交方式
+     get方式
+     post方式
+get方式和post方式的区别
+1.get方法不安全会把信息提交到地址栏。而post方法是安全的，不会把信息提交到信息栏
+2.post上传文件大小没有限制，而get方法有有限制一般不超过4KB
+3.一般推荐post方式，但是一般默认为post方式
 
 
+表单项：
+文本框 ：input  type=："text"
+密码框：以非明文的形式出现  input type=："password"
+单选按钮：input  type =“radio”
+复选框；input type=“checkbox”
+下拉菜单：<select></select>
+上传文件：input  type=“file”
+自我介绍：input  textarea
+placeholder：默认输入文字
+提交按钮：input  type =" submit"  value=“按钮名字”
+出生日期：input time="date"()/"datetime-local"(显示具体的时间，时分秒，年月日)
 
 
+getElementById（id属性值）
 
+<input 标签中必填属性：name属性：需要给后台进行标记
+   id属性：在当前HTML的标签中id是唯一，后期js中的dom编程
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+性别：
+>
