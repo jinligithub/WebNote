@@ -43,17 +43,7 @@ Location 对象：地址栏对象
 History  对象
   forward();
   Back()
-Go(正整数类似于 forward（）、负整数类似于_bank/_self)","指定当前窗口的高宽 的端口"
-
-
-
-
-
-
-
-
-
-
+Go(正整数类似于 forward（）、负整数类似于_bank/_self)","指定当前窗口的高宽 的端口
 
 
 
