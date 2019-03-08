@@ -26,6 +26,7 @@ prototype
 
 
 
+
 3.BOM编程
 基于刘浏览器对象模型，封装了四个对象
 Window 对象：window 对象可以省略不写
@@ -43,7 +44,17 @@ Location 对象：地址栏对象
 History  对象
   forward();
   Back()
-Go(正整数类似于 forward（）、负整数类似于_bank/_self)","指定当前窗口的高宽 的端口
+Go(正整数类似于 forward（）、负整数类似于_bank/_self)","指定当前窗口的高宽 的端口"
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -95,9 +106,22 @@ JavaScript将引擎当前HTML中的每一个标签封装成了标签对象，这些标签最终以树状结构呈
 
 DOM：基于文档对象模型编程，就是为了获取标签对象，利用标签对象的属性或者方法来查询节点
 
+DOM通过查询节点关系获取节点对象：
+节点关系：
+
+父节点：parentNode
+子节点：ChildNodes
+第一个子节点：fristNode
+最后一个节点：lastNode
+上一个兄弟节点：previousSibing
+下一个兄弟节点：nextSibing
+
+在ChildNodes，fristNode，lastChild这些属性中，有一个节点类型nodetype 
+空格换行：3
+注释 ：8
+标签对象：1
+如果知道节点对象类型，就通过符合节点类型，把标签对象的节点筛选出来
 
 
-
-
-
+JS没有重载，后边的方法会覆盖前边的方法。但是Jquery不一样，他会分别弹出来
   
