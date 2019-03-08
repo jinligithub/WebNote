@@ -26,7 +26,6 @@ prototype
 
 
 
-
 3.BOM编程
 基于刘浏览器对象模型，封装了四个对象
 Window 对象：window 对象可以省略不写
