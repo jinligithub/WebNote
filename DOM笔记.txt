@@ -1,0 +1,114 @@
+回顾：
+1.自定义对象
+定义对象document+库函数（）{}，
+创建对象  var 对象名  =new 函数名（）；
+A  有惨方式
+function  Person（name，age）{
+
+} 
+B。无参方式
+C 。var  对象名称 =new   Object ；（Object代表所有对象的模板）
+对象名称.属性名=“属性值”；
+对象方法.方法名=function（）{....}
+
+D。字面量方式：json格式
+{"key1":"value","key2":"value".....}
+var  对象名称={
+ "key1":"value",
+"key2":"value".....
+“方法名”:function(){....}
+}
+
+2.js原型
+prototype
+给内置对象中添加方法 去使用
+
+
+
+
+
+3.BOM编程
+基于刘浏览器对象模型，封装了四个对象
+Window 对象：window 对象可以省略不写
+ Window .setinterval
+     setTimeout("任务  function"，毫秒)
+Window.alter();
+Window.confirm();
+open()
+
+
+Location 对象：地址栏对象
+  Reload（）：重新刷新该页面
+ Href 属性：跳转 连接
+
+History  对象
+  forward();
+  Back()
+Go(正整数类似于 forward（）、负整数类似于_bank/_self)","指定当前窗口的高宽 的端口"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DOM编程
+通过集中方式获取到元素的标签
+  document集合属性方式
+查询关系的方式
+document对象的方法   
+ 获取标签对象：
+  创建标签对象的方法：document.createElement<input  type="button"/>
+给当前对象添加属性
+addAttribute("key: type",value :button);
+
+和插入相关
+appendChild（）
+insertBefore（）
+和删除节点相关的
+removeChild（）
+
+如何给动态或者其他动态表格添加元素
+在JS中的正则表达式基本语法
+
+数量词相关的：
+X+
+X?
+X(n,m)
+X*
+[a-zA-Z0-9]
+
+教研用户名是否符合正则规则
+ 获取到用户到输入的用户名
+定义正则 var reg = /xxxx/
+使用当前正则规则匹配的方法：test （获取字符串内容）
+验证表单验证功能
+
+
+
+
+JQuery：其实就是一个JS库
+选择器器：id
+
+
+
+
+
+
+JavaScript将引擎当前HTML中的每一个标签封装成了标签对象，这些标签最终以树状结构呈现出来
+
+DOM：基于文档对象模型编程，就是为了获取标签对象，利用标签对象的属性或者方法来查询节点
+
+
+
+
+
+
+  
